@@ -12,7 +12,7 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  python-devel
 BuildRequires:  pkgconfig(gtk+-3.0)
-Requires:       icon-theme-hicolor
+Requires:       hicolor-icon-theme
 
 %description
 This application is a basic image editor, similar to Microsoft Paint,
