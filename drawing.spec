@@ -38,7 +38,7 @@ Purism's Librem 5 phone.
 %meson_install
 %find_lang %{name} --with-gnome
 
-desktop-file-validate %{buildroot}%{_datadir}/applications/%{uuid}.desktop
+desktop-file-validate %{buildroot}%{_datadir}/applications/com.github.maoschanz.drawing.desktop
 
 
 %files -f %{name}.lang
