@@ -42,11 +42,11 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/com.github.maoschanz.
 
 
 %files -f %{name}.lang
-%doc --no-dereference LICENSE
+%doc LICENSE
 %doc README.md CONTRIBUTING.md
 %{_bindir}/%{name}
 %{_datadir}/%{name}
-%{_datadir}/applications/%{uuid}.desktop
+%{_datadir}/applications/*.desktop
 %{_datadir}/glib-2.0/schemas/*.gschema.xml
 %{_datadir}/icons/hicolor/*/*/*
 %{_datadir}/metainfo/*.appdata.xml
