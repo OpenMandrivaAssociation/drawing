@@ -38,9 +38,6 @@ Purism's Librem 5 phone.
 %meson_install
 %find_lang %{name} --with-gnome
 
-
-%check
-appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/%{uuid}.appdata.xml
 desktop-file-validate %{buildroot}%{_datadir}/applications/%{uuid}.desktop
 
 
