@@ -1,6 +1,6 @@
 Name:           drawing
-Version:        0.4.9
-Release:        2
+Version:        0.4.10
+Release:        1
 Summary:        Drawing application for the GTK desktops
 License:        GPLv3+
 URL:            https://github.com/maoschanz/drawing
@@ -24,7 +24,6 @@ Besides GNOME, some more traditional design layouts are available too,
 as well as an elementaryOS layout. It should also be compatible with
 Purism's Librem 5 phone.
 
-
 %prep
 %setup -q
 %autopatch -p1
@@ -33,13 +32,11 @@ Purism's Librem 5 phone.
 %meson
 %meson_build
 
-
 %install
 %meson_install
 %find_lang %{name} --with-gnome
 
 desktop-file-validate %{buildroot}%{_datadir}/applications/com.github.maoschanz.drawing.desktop
-
 
 %files -f %{name}.lang
 %doc LICENSE
