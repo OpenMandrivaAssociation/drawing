@@ -1,5 +1,5 @@
 Name:           drawing
-Version:        0.4.14
+Version:        0.6.0b
 Release:        1
 Summary:        Drawing application for the GTK desktops
 License:        GPLv3+
@@ -12,6 +12,9 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  python-devel
 BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(py3cairo)
+BuildRequires:  pkgconfig(pygobject-3.0)
+BuildRequires:  python3dist(pygobject)
 Requires:       hicolor-icon-theme
 
 %description
