@@ -14,6 +14,7 @@ BuildRequires:  python-devel
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(py3cairo)
 BuildRequires:  pkgconfig(pygobject-3.0)
+BuildRequires:  python3dist(pygobject)
 Requires:       hicolor-icon-theme
 
 %description
