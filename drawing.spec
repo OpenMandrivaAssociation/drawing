@@ -13,6 +13,7 @@ BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  python-devel
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(py3cairo)
+BuildRequires:  pkgconfig(pygobject-3.0)
 Requires:       hicolor-icon-theme
 
 %description
