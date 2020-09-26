@@ -12,6 +12,7 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  python-devel
 BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(py3cairo)
 Requires:       hicolor-icon-theme
 
 %description
