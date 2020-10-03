@@ -1,5 +1,5 @@
 Name:           drawing
-Version:        0.6.0b
+Version:        0.6.1
 Release:        1
 Summary:        Drawing application for the GTK desktops
 License:        GPLv3+
