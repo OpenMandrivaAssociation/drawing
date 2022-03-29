@@ -33,7 +33,7 @@ Purism's Librem 5 phone.
 %autopatch -p1
 
 %build
-%meson
+%meson -Denable-translations-and-appdata=false
 %meson_build
 
 %install
