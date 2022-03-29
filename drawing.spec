@@ -8,6 +8,7 @@ Source0:        https://github.com/maoschanz/drawing/archive/%{version}/%{name}-
 BuildArch:      noarch
 
 BuildRequires:  meson
+BuildRequires:  itstool
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  python-devel
