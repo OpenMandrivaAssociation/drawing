@@ -1,5 +1,5 @@
 Name:           drawing
-Version:        1.0.0
+Version:        1.0.1
 Release:        1
 Summary:        Drawing application for the GTK desktops
 License:        GPLv3+
@@ -33,7 +33,7 @@ Purism's Librem 5 phone.
 %autopatch -p1
 
 %build
-%meson -Denable-translations-and-appdata=false
+%meson
 %meson_build
 
 %install
