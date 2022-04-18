@@ -1,5 +1,5 @@
 Name:           drawing
-Version:        0.8.5
+Version:        1.0.1
 Release:        1
 Summary:        Drawing application for the GTK desktops
 License:        GPLv3+
@@ -8,6 +8,7 @@ Source0:        https://github.com/maoschanz/drawing/archive/%{version}/%{name}-
 BuildArch:      noarch
 
 BuildRequires:  meson
+BuildRequires:  itstool
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  python-devel
